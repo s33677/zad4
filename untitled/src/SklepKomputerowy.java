@@ -61,11 +61,7 @@ public class SklepKomputerowy {
             if(kat.equals(kategoria)){
                 System.out.println(Produkty[i].getKategoria() +" "+ Produkty[i].getIloscWMagazynie());
             }
-
-
         }
-
-
     }
     public void  wyswietlZamowieniaKlienta(int idKlienta){
         for (int i = 0; i < LiczbaZamowien; i++){
@@ -75,9 +71,4 @@ public class SklepKomputerowy {
             }
         }
     }
-    public void idzamowienia(){
-
-    }
-
-
 }
